@@ -55,9 +55,9 @@ The system follows a modular ETL architecture with clear separation of concerns:
 ├── web/
 │   ├── styles.css                    # Dashboard styling
 │   ├── chart_handler.js              # Fetch + render charts/tables
-│   └── assets/                       # Images/icons (optional)
+│   └── assets/                       # Images/icons 
 ├── data/
-│   ├── raw/                          # Provided XML input (git-ignored)
+│   ├── raw/                          # Provided XML input 
 │   │   └── momo.xml
 │   ├── processed/                    # Cleaned/derived outputs for frontend
 │   │   └── dashboard.json            # Aggregates the dashboard reads
